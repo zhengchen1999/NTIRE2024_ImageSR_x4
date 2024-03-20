@@ -17,7 +17,7 @@
    - Please zero pad [Your_Team_ID] into two digits: e.g. 00, 01, 02 
 3. Put the pretrained model in `./model_zoo/[Your_Team_ID]_[Your_Model_Name].[pth or pt or ckpt]`
    - Please zero pad [Your_Team_ID] into two digits: e.g. 00, 01, 02
-   - Note:  Please provide a download link for the pretrained model, if the file size exceeds **100 MB**. Put the link in `./model_zoo/[Your_Team_ID]_[Your_Model_Name].txt`: e.g. [team00_cat.txt](https://github.com/zhengchen1999/NTIRE2024_ImageSR_x4/blob/main/model_zoo/team00_cat.txt)
+   - Note:  Please provide a download link for the pretrained model, if the file size exceeds **100 MB**. Put the link in `./model_zoo/[Your_Team_ID]_[Your_Model_Name].txt`: e.g. [team00_dat.txt](model_zoo/team00_dat.txt)
 4. Add your model to the model loader `./test_demo/select_model` as follows:
     ```python
         elif model_id == [Your_Team_ID]:

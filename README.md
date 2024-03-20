@@ -8,7 +8,7 @@
     CUDA_VISIBLE_DEVICES=0 python test_demo.py --data_dir [path to your data dir] --save_dir [path to your save dir] --model_id 0
     ```
     - Be sure the change the directories `--data_dir` and `--save_dir`.
-    - We provide three baselines (team00): RFDN (default), SwinIR, and CAT. The code and pretrained models of the three models are provided. Switch models (default is CAT) through commenting the code in [test_demo.py](./test_demo.py#L19). Three baselines are all test normally with `run.sh`.
+    - We provide three baselines (team00): RFDN (default), SwinIR, and DAT. The code and pretrained models of the three models are provided. Switch models (default is DAT) through commenting the code in [test_demo.py](./test_demo.py#L19). Three baselines are all test normally with `run.sh`.
 
 ## How to add your model to this baseline?
 1. Register your team in the [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1jblarfHJmhP4saVYdAkURu3nUXYvtFoyh627KT8znPo/edit?usp=sharing) and get your team ID.
@@ -32,8 +32,8 @@
 
 ```python
     from utils.model_summary import get_model_flops
-    from models.team00_CAT import CAT
-    model = CAT()
+    from models.team00_DAT import DAT
+    model = DAT()
     
     input_dim = (3, 256, 256)  # set the input dimension
     flops = get_model_flops(model, input_dim, False)

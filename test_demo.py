@@ -30,11 +30,11 @@ def select_model(args, device):
         # model = SwinIR()
         # model.load_state_dict(torch.load(model_path), strict=True)
 
-        # CAT (CAT-R) baseline, NeurIPS 2022
-        from models.team00_CAT import CAT
-        name, data_range = f"{model_id:02}_CAT_baseline", 1.0
-        model_path = os.path.join('model_zoo', 'team00_cat.pth')
-        model = CAT()
+        # DAT baseline, ICCV 2023
+        from models.team00_DAT import DAT
+        name, data_range = f"{model_id:02}_DAT_baseline", 1.0
+        model_path = os.path.join('model_zoo', 'team00_dat.pth')
+        model = DAT()
         model.load_state_dict(torch.load(model_path), strict=True)
     else:
         raise NotImplementedError(f"Model {model_id} is not implemented.")

@@ -45,5 +45,41 @@
     print("{:>16s} : {:<.4f} [M]".format("#Params", num_parameters))
 ```
 
+## NTIRE Image SR ×4 Challenge Series
+
+Code repositories and accompanying technical report PDFs for each edition:  
+
+- **NTIRE 2025**: [CODE](https://github.com/zhengchen1999/NTIRE2025_ImageSR_x4) | [PDF](https://arxiv.org/pdf/2504.14582)  
+- **NTIRE 2024**: [CODE](https://github.com/zhengchen1999/NTIRE2024_ImageSR_x4) | [PDF](https://openaccess.thecvf.com/content/CVPR2024W/NTIRE/papers/Chen_NTIRE_2024_Challenge_on_Image_Super-Resolution_x4_Methods_and_Results_CVPRW_2024_paper.pdf)  
+- **NTIRE 2023**: [CODE](https://github.com/zhengchen1999/NTIRE2023_ImageSR_x4) | [PDF](https://openaccess.thecvf.com/content/CVPR2023W/NTIRE/papers/Zhang_NTIRE_2023_Challenge_on_Image_Super-Resolution_x4_Methods_and_Results_CVPRW_2023_paper.pdf)
+
+## Citation
+
+If you find the code helpful in your research or work, please cite the following paper(s).
+
+```
+@inproceedings{ntire2023srx4,
+  title={NTIRE 2023 challenge on image super-resolution (x4): Methods and results},
+  author={Zhang, Yulun and Zhang, Kai and Chen, Zheng and Li, Yawei and Timofte, Radu and others},
+  booktitle={CVPRW},
+  year={2023}
+}
+
+@inproceedings{ntire2022srx4,
+  title={Ntire 2024 challenge on image super-resolution (x4): Methods and results},
+  author={Chen, Zheng and Wu, Zongwei and Zamfir, Eduard and Zhang, Kai and Zhang, Yulun and Timofte, Radu and others},
+  booktitle={CVPRW},
+  year={2024}
+}
+
+@inproceedings{ntire2025srx4,
+  title={NTIRE 2025 challenge on real-world face restoration: Methods and results},
+  author={Chen, Zheng and Liu, Kai and Gong, Jue and Wang, Jingkai and Sun, Lei and Wu, Zongwei and Timofte, Radu and Zhang, Yulun and others},
+  booktitle={CVPRW},
+  year={2025}
+}
+```
+
 ## License and Acknowledgement
+
 This code repository is release under [MIT License](LICENSE). 
